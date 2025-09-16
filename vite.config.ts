@@ -1,6 +1,5 @@
 export default defineConfig({
-  // if your repo is named something else, change this path
-  base: '/cybersec-team-fit/',
+  base: '/<your-repo-name>/',   // must match EXACT repo name
   plugins: [react()],
-  resolve: { /* your alias stuff here */ }
+  // ...rest
 })
